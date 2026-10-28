@@ -23,16 +23,9 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
-
     return Scaffold(
       drawer: const AppDrawer(currentRoute: '/portfolio'),
-      appBar: AppBar(
-        title: const Text('Bienvenuti il mio portfolio'),
-        centerTitle: true,
-        backgroundColor: colorScheme.primary,
-        foregroundColor: colorScheme.onPrimary,
-      ),
+      appBar: AppBar(title: const Text('Mi portfolio')),
       body: SafeArea(
         child: ListView(
           children: [

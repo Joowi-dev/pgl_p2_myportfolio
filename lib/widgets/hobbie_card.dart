@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pgl_p2_myportfolio/styles/app_colors.dart';
 
 class HobbieCard extends StatelessWidget {
   const HobbieCard.infoHobbie({super.key, required this.infoHobbie});
@@ -7,8 +8,7 @@ class HobbieCard extends StatelessWidget {
 
   static const _filledCard = EdgeInsets.symmetric(horizontal: 8, vertical: 12);
 
-  static const _textStyle = TextStyle(color: Colors.black, fontSize: 16);
-
+  static const _textStyle = TextStyle(color: AppColors.text, fontSize: 16);
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -16,11 +16,8 @@ class HobbieCard extends StatelessWidget {
       height: 100,
       padding: _filledCard,
       decoration: BoxDecoration(
-        color: const Color.fromARGB(255, 249, 147, 147),
-        border: Border.all(
-          color: const Color.fromARGB(255, 6, 31, 96),
-          width: 2,
-        ),
+        color: AppColors.primaryContainer,
+        border: Border.all(color: AppColors.secondary, width: 2),
         borderRadius: BorderRadius.circular(8),
       ),
       child: Center(

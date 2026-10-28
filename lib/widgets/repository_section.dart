@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 
+import '../styles/app_colors.dart';
+
 class RepositorySection extends StatelessWidget {
   const RepositorySection({super.key});
 
@@ -9,7 +11,6 @@ class RepositorySection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-  
     return Column(
       children: [
         Image.asset(_imagePath, width: 180, fit: BoxFit.contain),
@@ -23,7 +24,7 @@ class RepositorySection extends StatelessWidget {
         Container(
           padding: const EdgeInsets.all(16),
           decoration: BoxDecoration(
-            color: const Color.fromARGB(255, 6, 31, 96),
+            color: AppColors.primary,
             borderRadius: BorderRadius.circular(12),
           ),
           child: QrImageView(
@@ -33,11 +34,11 @@ class RepositorySection extends StatelessWidget {
             backgroundColor: Colors.white,
             eyeStyle: const QrEyeStyle(
               eyeShape: QrEyeShape.square,
-              color: Colors.black,
+              color: AppColors.primary,
             ),
             dataModuleStyle: const QrDataModuleStyle(
               dataModuleShape: QrDataModuleShape.square,
-              color: Colors.black,
+              color: AppColors.secondary,
             ),
           ),
         ),

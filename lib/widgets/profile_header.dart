@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pgl_p2_myportfolio/styles/app_colors.dart';
 
 class ProfileHeader extends StatelessWidget {
   const ProfileHeader({super.key, required this.selectedOption});
@@ -17,7 +18,7 @@ class ProfileHeader extends StatelessWidget {
     final imageChange = selectedOption == 1 ? _repositoryImage : _profileImage;
 
     return ColoredBox(
-      color: const Color.fromARGB(255, 238, 238, 238),
+      color: AppColors.surface,
       child: Padding(
         padding: const EdgeInsets.all(16),
         child: Row(
@@ -41,7 +42,7 @@ class ProfileHeader extends StatelessWidget {
             const Expanded(
               child: Text(
                 _description,
-                style: TextStyle(fontSize: 16, color: Colors.black),
+                style: TextStyle(fontSize: 16, color: AppColors.text),
               ),
             ),
           ],
