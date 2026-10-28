@@ -1,17 +1,8 @@
-# pgl_p2_myportfolio
+# Eres un grande Adri
 
-A new Flutter project.
+Pues nada rey, aquí esta el resultado de duras sesiones con chati, la verdad que todo bien, lo que me preguntes probablemente te lo sepa explicar, y si no, es que ha pasado demasiado tiempo desde que lo entegué hasta que me lo preguntaste, tu fakin culpa
 
-## Getting Started
+![PANTALLA 1 (home)](assets/images/captura1.png)
+![PANTALLA 2 (repo)](assets/images/captura2.png)
+![PANTALLA 3 (drawer)](assets/images/captura3.png)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
