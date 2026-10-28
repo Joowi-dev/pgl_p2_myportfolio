@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_portfolio/widgets/portfolio_screen.dart';
+import '../screens/portfolio_screen.dart';
 
 class MyPortfolio extends StatelessWidget {
   const MyPortfolio({super.key});
