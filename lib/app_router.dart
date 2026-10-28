@@ -6,10 +6,7 @@ import 'screens/portfolio_screen.dart';
 final appRouter = GoRouter(
   initialLocation: '/',
   routes: [
-    GoRoute(
-      path: '/',
-      builder: (context, state) => const HomeScreen(),
-    ),
+    GoRoute(path: '/', builder: (context, state) => const HomeScreen()),
     GoRoute(
       path: '/portfolio',
       builder: (context, state) => const PortfolioScreen(),

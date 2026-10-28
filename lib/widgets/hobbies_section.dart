@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+
 import 'hobbie_card.dart';
+
 class HobbiesSection extends StatelessWidget {
   const HobbiesSection({super.key});
 
@@ -19,7 +21,7 @@ class HobbiesSection extends StatelessWidget {
     'Ducharme',
     'Ir de guachinche',
     'Viajar',
-    "Soñar a lo grande"
+    "Soñar a lo grande",
   ];
 
   @override
@@ -29,9 +31,7 @@ class HobbiesSection extends StatelessWidget {
       spacing: 12,
       runSpacing: 12,
       children: _hobbies.map((infoHobbie) {
-        return HobbieCard.infoHobbie(
-          infoHobbie: infoHobbie,
-        );
+        return HobbieCard.infoHobbie(infoHobbie: infoHobbie);
       }).toList(),
     );
   }

@@ -9,23 +9,15 @@ class RepositorySection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
-
+  
     return Column(
       children: [
-        Image.asset(
-          _imagePath,
-          width: 180,
-          fit: BoxFit.contain,
-        ),
+        Image.asset(_imagePath, width: 180, fit: BoxFit.contain),
         const SizedBox(height: 24),
         const Text(
           'Un gran poder, conlleva una gran responsabilidad',
           textAlign: TextAlign.center,
-          style: TextStyle(
-            fontSize: 30,
-            fontWeight: FontWeight.bold,
-          ),
+          style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
         ),
         const SizedBox(height: 24),
         Container(

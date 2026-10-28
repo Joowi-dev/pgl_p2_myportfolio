@@ -26,9 +26,7 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(height: 24),
               const CircleAvatar(
                 radius: 64,
-                backgroundImage: AssetImage(
-                  'assets/images/jowi.jpg',
-                ),
+                backgroundImage: AssetImage('assets/images/jowi.jpg'),
               ),
               const SizedBox(height: 24),
               Text(

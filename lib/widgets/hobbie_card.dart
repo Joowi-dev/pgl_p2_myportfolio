@@ -17,7 +17,10 @@ class HobbieCard extends StatelessWidget {
       padding: _filledCard,
       decoration: BoxDecoration(
         color: const Color.fromARGB(255, 249, 147, 147),
-        border: Border.all(color: const Color.fromARGB(255, 6, 31, 96), width: 2),
+        border: Border.all(
+          color: const Color.fromARGB(255, 6, 31, 96),
+          width: 2,
+        ),
         borderRadius: BorderRadius.circular(8),
       ),
       child: Center(
