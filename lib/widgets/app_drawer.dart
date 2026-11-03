@@ -51,6 +51,12 @@ class AppDrawer extends StatelessWidget {
               selected: currentRoute == '/portfolio',
               onTap: () => _navigateTo(context, '/portfolio'),
             ),
+            ListTile(
+              leading: const Icon(Icons.restaurant_menu),
+              title: const Text('Platos'),
+              selected: currentRoute == '/platos',
+              onTap: () => _navigateTo(context, '/platos'),
+            ),
           ],
         ),
       ),
