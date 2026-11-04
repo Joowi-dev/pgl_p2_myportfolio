@@ -6,3 +6,12 @@ Pues nada rey, aquí esta el resultado de duras sesiones con chati, la verdad qu
 ![PANTALLA 2 (repo)](assets/images/captura2.png)
 ![PANTALLA 3 (drawer)](assets/images/captura3.png)
 
+
+# Opaleeee
+
+Nada aqui te va la nueva actualizacion de esta maravillosa app. Suscribete y activa la campanita para enterarte de todo! Saludito mi pana
+
+
+![PANTALLA 4 (drawer)](assets/images/captura4.png)
+![PANTALLA 5 (drawer)](assets/images/captura5.png)
+![PANTALLA 6 (drawer)](assets/images/captura6.png)
