@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 
-import '../styles/app_colors.dart';
+import '../../styles/app_colors.dart';
 
 class RepositorySection extends StatelessWidget {
   const RepositorySection({super.key});

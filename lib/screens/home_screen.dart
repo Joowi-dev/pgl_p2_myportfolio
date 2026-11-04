@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../styles/app_colors.dart';
-import '../widgets/app_drawer.dart';
+import '../drawer/app_drawer.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key, this.backgroundAsset});

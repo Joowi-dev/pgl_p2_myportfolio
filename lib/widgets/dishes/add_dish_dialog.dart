@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../models/dish.dart';
+import '../../models/dish.dart';
 
 class AddDishDialog extends StatefulWidget {
   const AddDishDialog({super.key});

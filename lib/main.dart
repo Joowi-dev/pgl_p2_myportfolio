@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'app_router.dart';
+import 'drawer/app_router.dart';
 import 'styles/app_theme.dart';
 
 void main() {

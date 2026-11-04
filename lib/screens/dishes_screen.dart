@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 import '../models/dish.dart';
 import '../styles/app_colors.dart';
-import '../widgets/add_dish_dialog.dart';
-import '../widgets/app_drawer.dart';
-import '../widgets/dish_card.dart';
-import '../widgets/delete_all_dishes_dialog.dart';
-
+import '../widgets/dishes/add_dish_dialog.dart';
+import '../drawer/app_drawer.dart';
+import '../widgets/dishes/dish_card.dart';
+import '../widgets/dishes/delete_all_dishes_dialog.dart';
+  
 class DishesScreen extends StatefulWidget {
   const DishesScreen({super.key});
 

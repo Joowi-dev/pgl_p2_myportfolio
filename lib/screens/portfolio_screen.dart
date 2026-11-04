@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/app_drawer.dart';
-import '../widgets/hobbies_section.dart';
-import '../widgets/profile_header.dart';
-import '../widgets/repository_section.dart';
+import '../drawer/app_drawer.dart';
+import '../widgets/portfolio/hobbies_section.dart';
+import '../widgets/portfolio/profile_header.dart';
+import '../widgets/portfolio/repository_section.dart';
 
 class PortfolioScreen extends StatefulWidget {
   const PortfolioScreen({super.key});

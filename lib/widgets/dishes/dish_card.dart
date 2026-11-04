@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../models/dish.dart';
-import '../styles/app_colors.dart';
+import '../../models/dish.dart';
+import '../../styles/app_colors.dart';
 
 class DishCard extends StatelessWidget {
   const DishCard({super.key, required this.dish, required this.onDelete});
