@@ -16,6 +16,9 @@ final appRouter = GoRouter(
       path: '/portfolio',
       builder: (context, state) => const PortfolioScreen(),
     ),
-    GoRoute(path: '/platos', builder: (context, state) => const DishesScreen()),
+    GoRoute(
+      path: '/platos', 
+      builder: (context, state) => const DishesScreen()
+      ),
   ],
 );

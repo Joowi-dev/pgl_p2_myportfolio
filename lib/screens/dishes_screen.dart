@@ -5,6 +5,7 @@ import '../styles/app_colors.dart';
 import '../widgets/add_dish_dialog.dart';
 import '../widgets/app_drawer.dart';
 import '../widgets/dish_card.dart';
+import '../widgets/delete_all_dishes_dialog.dart';
 
 class DishesScreen extends StatefulWidget {
   const DishesScreen({super.key});
@@ -54,11 +55,37 @@ class _DishesScreenState extends State<DishesScreen> {
     });
   }
 
+  Future<void> _deleteAllDishes() async {
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (context) => const DeleteAllDishesDialog(),
+    );
+
+    // Solo se borra si se ha pulsado "Borrar todo".
+    if (confirmed != true) {
+      return;
+    }
+
+    setState(() {
+      _dishes.clear();
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: const AppDrawer(currentRoute: '/platos'),
-      appBar: AppBar(title: const Text('Platos')),
+      appBar: AppBar(
+        title: const Text('Platos'),
+        actions: [
+          IconButton(
+            // Desactivado si la lista ya está vacía.
+            onPressed: _dishes.isEmpty ? null : _deleteAllDishes,
+            tooltip: 'Borrar todos los platos',
+            icon: const Icon(Icons.delete_sweep),
+          ),
+        ],
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: _addDish,
         tooltip: 'Añadir plato',

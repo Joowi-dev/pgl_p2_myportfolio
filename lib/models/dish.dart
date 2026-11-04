@@ -1,7 +1,7 @@
 enum DishCategory {
-  starter('Entrante', 'assets/images/categorias/entrante.png'),
-  mainCourse('Principal', 'assets/images/categorias/principal.png'),
-  dessert('Postre', 'assets/images/categorias/postre.png');
+  starter('Entrante', 'assets/images/categories/entrante.png'),
+  mainCourse('Principal', 'assets/images/categories/principal.png'),
+  dessert('Postre', 'assets/images/categories/postre.png');
 
   const DishCategory(this.label, this.imagePath);
 

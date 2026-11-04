@@ -4,10 +4,7 @@ import '../styles/app_colors.dart';
 import '../widgets/app_drawer.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({
-    super.key,
-    this.backgroundAsset,
-  });
+  const HomeScreen({super.key, this.backgroundAsset});
 
   final String? backgroundAsset;
 
@@ -33,11 +30,7 @@ class HomeScreen extends StatelessWidget {
         fit: StackFit.expand,
         children: [
           // Fondo recibido desde el router.
-          if (background != null)
-            Image.asset(
-              background,
-              fit: BoxFit.cover,
-            ),
+          if (background != null) Image.asset(background, fit: BoxFit.cover),
 
           // Oscurece la fotografía para destacar los textos.
           DecoratedBox(
@@ -144,7 +137,8 @@ class HomeScreen extends StatelessWidget {
                                 onPressed: null,
                                 style: FilledButton.styleFrom(
                                   disabledBackgroundColor: AppColors.secondary,
-                                  disabledForegroundColor: AppColors.onSecondary,
+                                  disabledForegroundColor:
+                                      AppColors.onSecondary,
                                   shape: const StadiumBorder(),
                                   textStyle: const TextStyle(
                                     fontSize: 20,
